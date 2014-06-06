@@ -1,6 +1,6 @@
 <?php
 
-function VBO_taxonomy_fix_taxonomy_term_presave($term) {
+function vbo_taxonomy_fix_taxonomy_term_presave($term) {
   // Change existing term? Nothing to do!
   if ((isset($term->tid)) && ($term->tid > 0)) {
     return;

@@ -1,0 +1,6 @@
+name = Views Bulk Operations taxonomy fix
+description = Provides a fix for the VBO taxonomy bug.
+
+package = Views
+core = 7.x
+
